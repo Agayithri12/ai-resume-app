@@ -86,11 +86,13 @@ python app.py
 
 Open your browser and visit:
 
-http://127.0.0.1:5000
+http://127.0.0.1:50
 
 Upload a resume and view the analysis results.
 
 ---
+## Visit
+ https://agayithri12.github.io/ai-resume-app/
 
 ## 📊 Output
 
