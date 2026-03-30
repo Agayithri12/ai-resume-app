@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume Analysis Result</title>
+</head>
+
+<body>
+
+<h2>Resume Analysis Result</h2>
+
+<h3>Extracted Skills:</h3>
+<ul>
+{% for skill in skills %}
+<li>{{ skill }}</li>
+{% endfor %}
+</ul>
+
+<h3>ATS Score:</h3>
+<p>{{ score }} / 100</p>
+
+<h3>Recommended Jobs:</h3>
+<ul>
+{% for job in jobs %}
+<li>{{ job }}</li>
+{% endfor %}
+</ul>
+
+<a href="/">Upload Another Resume</a>
+
+</body>
+</html>
